@@ -1,0 +1,67 @@
+{extend name="common/base" /}
+{block name="title"}添加位置{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 添加位置</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">位置管理</li>
+    <li class="breadcrumb-item">添加位置</li>
+{/block}
+{block name="content"}
+  <div class="tile-body">
+    <form method="post" action="{:url('index/location/add')}">
+      <div class="form-group">
+        <label class="control-label">选点位置</label>
+        <input class="form-control" type="text" name="location" id="location">
+      </div>
+      <div style="text-align: center;">
+        <button class="btn btn-primary" type="button" style="padding-bottom: 5px;" onclick="getLocation()"><i class="fa fa-fw fa-lg fa-check-circle"></i>获取经纬度</button>
+      </div>
+      <div class="form-group">
+        <label class="control-label">经度</label>
+        <input class="form-control" type="text" name="x" id="x">
+      </div>
+      <div class="form-group">
+        <label class="control-label">维度</label>
+        <input class="form-control" type="text" name="y" id="y">
+      </div>
+      <div class="form-group">
+        <label class="control-label">结构地址</label>
+        <input class="form-control" type="text" name="address" id="address">
+      </div>
+      <div style="text-align: center;">
+        <button class="btn btn-primary" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>确认添加</button>
+      </div>
+    </form>
+  </div>
+{/block}
+{block name="js"}
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=FQGefAdzhVtzQTYGUp9PsDHcVu3UvBtl&s=1"></script>
+<script type="text/javascript">
+  function getLocation(){
+    var location = $("#location").val();
+    var myGeo = new BMap.Geocoder();
+    // 将地址解析结果显示
+    myGeo.getPoint(location, function(point){
+      if (point) {
+          myGeo.getLocation(new BMap.Point(point.lng, point.lat), function(result){      
+            if (result){
+              console.log(result.surroundingPois);
+              $("#address").val(result.address+result.surroundingPois['0'].title);
+            }
+          });
+        $("#x").val(point.lng);
+        $("#y").val(point.lat);
+      }else{
+        alert("您选择地址没有解析到结果!");
+      }
+    });
+  }
+</script>
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-5").addClass('is-expanded');
+        $("#m-5-2").addClass('active');
+    })
+</script>
+{/block}

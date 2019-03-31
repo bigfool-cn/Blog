@@ -1,0 +1,145 @@
+---------------------------------------------------------------
+[ 2018-06-04T04:00:43+08:00 ] 172.16.0.5 162.243.135.163 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '162.243.135.163'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('162.243.135.163' , '加利福尼亚-旧金山' , '2018-06-04 04:00:43') [ RunTime:0.005132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-06-04T04:19:50+08:00 ] 172.16.0.5 163.177.90.152 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '163.177.90.152'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('163.177.90.152' , '广东-深圳' , '2018-06-04 04:19:50') [ RunTime:0.004188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-06-04T07:10:18+08:00 ] 172.16.0.5 106.11.153.130 GET /download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_share` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_share` LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `think_share` ORDER BY `id`  desc LIMIT 0,9 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_share` LIMIT 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2018-06-04T07:51:11+08:00 ] 172.16.0.5 112.96.65.74 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '112.96.65.74'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('112.96.65.74' , '广东-佛山' , '2018-06-04 07:51:11') [ RunTime:0.006234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-06-04T07:51:22+08:00 ] 172.16.0.5 112.96.65.74 GET /about.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2018-06-04T08:55:24+08:00 ] 172.16.0.5 101.226.64.174 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '101.226.64.174'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('101.226.64.174' , '上海-上海' , '2018-06-04 08:55:24') [ RunTime:0.004763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-06-04T12:17:18+08:00 ] 172.16.0.5 106.11.159.137 GET /article/details.html?id=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] UPDATE `think_article`  SET `click_nums`=7  WHERE  `id` = 10 [ RunTime:0.004510s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `tag_id` = 18  AND `id` <> 10 LIMIT 4 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `category_id` = 1  AND `id` < 10 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `category_id` = 1  AND `id` > 10 LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2018-06-04T12:28:10+08:00 ] 172.16.0.5 218.17.222.229 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '218.17.222.229'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('218.17.222.229' , '广东-深圳' , '2018-06-04 12:28:10') [ RunTime:0.006093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-06-04T18:56:41+08:00 ] 172.16.0.5 211.103.218.83 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '211.103.218.83'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('211.103.218.83' , '北京-北京' , '2018-06-04 18:56:41') [ RunTime:0.006719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2018-06-04T19:39:23+08:00 ] 172.16.0.5 101.226.35.225 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '101.226.35.225'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('101.226.35.225' , '上海-上海' , '2018-06-04 19:39:23') [ RunTime:0.009381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2018-06-04T20:40:47+08:00 ] 172.16.0.5 216.218.206.69 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '216.218.206.69'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('216.218.206.69' , 'XX-XX' , '2018-06-04 20:40:47') [ RunTime:0.004952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:03:12+08:00 ] 172.16.0.5 139.162.116.133 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '139.162.116.133'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('139.162.116.133' , 'XX-XX' , '2018-06-04 21:03:12') [ RunTime:0.004858s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:43:44+08:00 ] 172.16.0.5 112.90.82.196 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '112.90.82.196'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('112.90.82.196' , '广东-深圳' , '2018-06-04 22:43:44') [ RunTime:0.007563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:49:41+08:00 ] 172.16.0.5 202.108.211.56 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '202.108.211.56'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('202.108.211.56' , '北京-北京' , '2018-06-04 22:49:41') [ RunTime:0.004275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2018-06-04T23:31:21+08:00 ] 172.16.0.5 112.96.65.74 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '112.96.65.74'  AND `create_time` LIKE '2018-06-04%' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-06-04T23:31:36+08:00 ] 172.16.0.5 112.96.65.74 GET /about.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.000242s ]

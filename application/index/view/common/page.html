@@ -1,0 +1,74 @@
+<ul class="pagination">
+    {if condition="$current_page==1"}
+        <li class="paginate_button page-item previous disabled">
+            <a href="" aria-controls="sampleTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+        </li>
+    {else /}
+        <li class="paginate_button page-item previous">
+            <a href='?page={$current_page-1}' aria-controls="sampleTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+        </li>
+    {/if}
+    {if condition="$current_page>5"}
+        {if condition="($current_page+6)>$pages"}
+            {for start="$current_page-5" end="$pages+1" step="1" name="page"}
+                {if condition="$page==$current_page"}
+                    <li class="paginate_button page-item active">
+                        <a href="javascript:;" aria-controls="sampleTable" data-dt-idx="1" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {else /}
+                    <li class="paginate_button page-item ">
+                        <a href='?page={$page}' aria-controls="sampleTable" data-dt-idx="2" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {/if}
+            {/for}
+        {else /}
+            {for start="$current_page-5" end="$current_page+6" step="1" name="page"}
+                {if condition="$page==$current_page"}
+                    <li class="paginate_button page-item active">
+                        <a href="javascript:;" aria-controls="sampleTable" data-dt-idx="1" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {else /}
+                    <li class="paginate_button page-item ">
+                        <a href='?page={$page}' aria-controls="sampleTable" data-dt-idx="2" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {/if}
+            {/for}
+        {/if}
+    {else /}
+        {if condition="$pages>11"}
+            {for start="1" end="11" step="1" name="page"}
+                {if condition="$page==$current_page"}
+                    <li class="paginate_button page-item active">
+                        <a href="javascript:;" aria-controls="sampleTable" data-dt-idx="1" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {else /}
+                    <li class="paginate_button page-item ">
+                        <a href='?page={$page}' aria-controls="sampleTable" data-dt-idx="2" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {/if}
+            {/for}
+        {else /}
+            {for start="1" end="$pages" step="1" name="page"}
+                {if condition="$page==$current_page"}
+                    <li class="paginate_button page-item active">
+                        <a href="javascript:;" aria-controls="sampleTable" data-dt-idx="1" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {else /}
+                    <li class="paginate_button page-item ">
+                        <a href='?page={$page}' aria-controls="sampleTable" data-dt-idx="2" tabindex="0" class="page-link">{$page}</a>
+                    </li>
+                {/if}
+            {/for}
+        {/if}
+    {/if}
+
+    {if condition="$current_page eq $pages"}
+        <li class="paginate_button page-item next disabled">
+            <a href="#" aria-controls="sampleTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
+        </li>
+    {else /}
+        <li class="paginate_button page-item next">
+            <a href='?page={$current_page+1}' aria-controls="sampleTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
+        </li>
+    {/if}
+</ul>

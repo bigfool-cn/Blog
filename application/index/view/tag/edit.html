@@ -1,0 +1,48 @@
+{extend name="common/base" /}
+{block name="title"}修改标签{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 修改标签</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">标签管理</li>
+    <li class="breadcrumb-item">修改标签</li>
+{/block}
+{block name="content"}
+<div class="col-lg-6">
+	{if $status}
+		{if condition="$status=='修改成功'"}
+		<div class="alert alert-dismissible alert-info">
+		{else /}
+		<div class="alert alert-dismissible alert-warning">
+		{/if}
+            <button class="close" type="button" data-dismiss="alert">×</button>
+            <h4>{$status}</h4>
+        </div>
+	{/if}
+	<form action="{:url('index/tag/edit')}" method="post" onsubmit="return validForm();">
+		<div class="form-group">
+			<label for="exampleSelect1">所属模板</label>
+			<select class="form-control" id="category" name="category">
+				{volist name="categorys" id="category"}
+					<option value="{$category.id}" {if condition="$category.id==$tag.category_id"}selected{/if}>{$category.name}</option>
+				{/volist}}
+			</select>
+		</div>
+		<div class="form-group">
+			<label class="control-label">标签昵称</label>
+			<input class="form-control" type="text" id="name" name="name" value='{$tag.name}'>
+		</div>
+		<input type="hidden" name="id" value='{$tag.id}'/>
+	  	<button class="btn btn-primary" type="submit">修改</button>
+	</form>
+</div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-3").addClass('is-expanded');
+        $("#m-3-1").addClass('active');
+    })
+</script>
+<script src="/static/js/index/checkForm.js"></script>
+{/block}

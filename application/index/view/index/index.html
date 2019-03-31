@@ -1,0 +1,73 @@
+{extend name="common/base" /}
+{block name="title"}首页{/block}
+{block name="content"}
+{block name="page_title"}
+  <h1><i class="fa fa-dashboard"></i> 数据一览</h1>
+{/block}
+{block name="content"}
+	<div class="row">
+		<div class="col-md-6 col-lg-3">
+	  <div class="widget-small primary coloured-icon"><i class="icon fa fa-user fa-4x"></i>
+	    <div class="info">
+	      <h4>今日访问人数</h4>
+	      <p><b>{$visit_today}</b></p>
+	    </div>
+	  </div>
+		</div>
+		<div class="col-md-6 col-lg-3">
+		  <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-4x"></i>
+		    <div class="info">
+		      <h4>访问总人数</h4>
+		      <p><b>{$visit_counts}</b></p>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-md-6 col-lg-3">
+		  <div class="widget-small info coloured-icon"><i class="icon fa fa-map fa-4x"></i>
+		    <div class="info">
+		      <h4>文章总数</h4>
+		      <p><b>{$article_counts}</b></p>
+		    </div>
+		  </div>
+		</div>
+		<div class="col-md-6 col-lg-3">
+		  <div class="widget-small warning coloured-icon"><i class="icon fa fa-paper-plane fa-3x"></i>
+		    <div class="info">
+		      <h4>分享下载总数</h4>
+		      <p><b>{$share_counts}</b></p>
+		    </div>
+		  </div>
+		</div>
+	</div>
+    <div class="tile">
+    	<h3 class="tile-title">访问者信息</h3>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>IP</th>
+              <th>IP所在地</th>
+              <th>访问时间</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="visit_infos" id="visit_info"}
+	            <tr>
+	              <td>{$visit_info.id}</td>
+	              <td>{$visit_info.ip}</td>
+	          	  <td>{$visit_info.address}</td>
+	              <td>{$visit_info.create_time}</td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+	{include file='common/page'}
+    </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-1").addClass('active');
+    })
+</script>>
+{/block}

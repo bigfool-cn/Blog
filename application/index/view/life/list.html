@@ -1,0 +1,60 @@
+{extend name="common/base" /}
+{block name="title"}日记列表{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 日记列表</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">内容管理</li>
+    <li class="breadcrumb-item">日记列表</li>
+{/block}
+{block name="content"}
+   <div class="tile">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>标题</th>
+              <th>图片</th>
+              <th>添加时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="lifes" id="life"}
+	            <tr>
+	              <td>{$life.id}</td>
+	              <td>{$life.title}</td>
+	          	  <td><img src="{$life.img_url}" width="60px" height="30px" /></td>
+	              <td>{$life.add_time}</td>
+	              <td><a id="{$life.id}" onclick="toDelete({$life.id})" style="color: red;cursor:pointer">删除</a></td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+	   {include file='common/page'}
+   </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-4").addClass('is-expanded');
+        $("#m-4-5").addClass('active');
+    })
+</script>
+<script>
+	function toDelete(id){
+		$.ajax({
+			cache:false,
+			type:"POST",
+			url:"{:url('index/life/delete')}",
+			dataType:"json",
+			data:{"id":id},
+			async:true,
+			success:function(data){
+				alert(data.msg);
+				$('#'+id).parents('tr').remove();
+			}
+		});
+	}
+</script>
+{/block}

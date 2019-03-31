@@ -1,0 +1,62 @@
+{extend name="common/base" /}
+{block name="title"}分享列表{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 分享列表</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">内容管理</li>
+    <li class="breadcrumb-item">分享列表</li>
+{/block}
+{block name="content"}
+   <div class="tile">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>标题</th>
+              <th>所属标签</th>
+              <th>封面图</th>
+              <th>添加时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="shares" id="share"}
+	            <tr>
+	              <td>{$share.id}</td>
+	              <td>{$share.title}</td>
+	          	  <td>{$share.tag.name}</td>
+	          	  <td><img src="{$share.image}" width="50px" height="25px" /></td>
+	              <td>{$share.create_time}</td>
+	              <td><a href="{:url('index/share/edit')}?id={$share.id}">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="{$share.id}" onclick="toDelete({$share.id})" style="color: red;cursor:pointer">删除</a></td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+	   {include file='common/page'}
+   </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-4").addClass('is-expanded');
+        $("#m-4-3").addClass('active');
+    })
+</script>
+<script>
+	function toDelete(id){
+		$.ajax({
+			cache:false,
+			type:"POST",
+			url:"{:url('index/share/delete')}",
+			dataType:"json",
+			data:{"id":id},
+			async:true,
+			success:function(data){
+				alert(data.msg);
+				$('#'+id).parents('tr').remove();
+			}
+		});
+	}
+</script>
+{/block}

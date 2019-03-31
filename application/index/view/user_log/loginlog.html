@@ -1,0 +1,42 @@
+{extend name="common/base" /}
+{block name="title"}登录日志{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 管理员登录日志</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">日志管理</li>
+    <li class="breadcrumb-item">登陆日志</li>
+{/block}
+{block name="content"}
+    <div class="tile">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>用户名</th>
+              <th>登录IP</th>
+              <th>登陆时间</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="loginlogs" id="loginlog"}
+	            <tr>
+	              <td>{$loginlog.id}</td>
+	              <td>{$loginlog.username}</td>
+	              <td>{$loginlog.ip}</td>
+	              <td>{$loginlog.create_time}</td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+		{include file='common/page'}
+    </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#m-2").addClass('is-expanded');
+        $("#m-2-1").addClass('active');
+    })
+</script>>
+{/block}

@@ -1,0 +1,43 @@
+{extend name="common/base" /}
+{block name="title"}操作日志{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 管理员操作日志</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">日志管理</li>
+    <li class="breadcrumb-item">管理员操作日志</li>
+{/block}
+{block name="content"}
+    <div class="tile">
+        <h3 class="tile-title">管理员操作日志</h3>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>用户名</th>
+              <th>操作内容</th>
+              <th>操作时间</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="operatelogs" id="operatelog"}
+	            <tr>
+	              <td>{$operatelog.id}</td>
+	              <td>{$operatelog.username}</td>
+	              <td>{$operatelog.action}</td>
+	              <td>{$operatelog.create_time}</td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+		{include file='common/page'}
+    </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#m-2").addClass('is-expanded');
+        $("#m-2-2").addClass('active');
+    })
+</script>>
+{/block}

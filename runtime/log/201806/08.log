@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2018-06-08T03:12:30+08:00 ] 172.16.0.5 106.11.152.220 GET /learn.html?tag=JavaScript
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_tag` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `think_tag` WHERE  `category_id` = 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_tag` WHERE  `name` = 'JavaScript' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` WHERE  `tag_id` = 8 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `tag_id` = 8 ORDER BY `create_time`  desc LIMIT 0,8 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-06-08T04:16:44+08:00 ] 172.16.0.5 107.170.253.114 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '107.170.253.114'  AND `create_time` LIKE '2018-06-08%' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('107.170.253.114' , '加利福尼亚-旧金山' , '2018-06-08 04:16:44') [ RunTime:0.005058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_life` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `think_life` ORDER BY `add_time`  desc LIMIT 3 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `create_time`  desc LIMIT 8 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-06-08T08:38:35+08:00 ] 172.16.0.5 106.11.155.220 GET /learn.html?tag=Yii
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_tag` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `think_tag` WHERE  `category_id` = 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_tag` WHERE  `name` = 'Yii' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` WHERE  `tag_id` = 2 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `tag_id` = 2 ORDER BY `create_time`  desc LIMIT 0,8 [ RunTime:0.000325s ]

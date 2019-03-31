@@ -1,0 +1,2664 @@
+---------------------------------------------------------------
+[ 2018-05-09T16:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.947590s][吞吐率：1.06req/s] [内存消耗：2,167.01kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.269645s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.122123s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001858s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:22:21+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.179233s][吞吐率：5.58req/s] [内存消耗：1,961.66kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013474s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.007307s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001599s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:27:46+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.182447s][吞吐率：5.48req/s] [内存消耗：1,961.66kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007913s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.006535s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001683s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:36:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.com/ [运行时间：1.516783s][吞吐率：0.66req/s] [内存消耗：2,100.26kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\index.html [ array (
+  0 => 'shares',
+  1 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.426668s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_visit_info` [ RunTime:0.108742s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_visit_info` WHERE  `ip` = '127.0.0.1'  AND `create_time` LIKE '2018-05-09%' LIMIT 1 [ RunTime:0.004294s ]
+[ sql ] [ SQL ] INSERT INTO `think_visit_info` (`ip` , `address` , `create_time`) VALUES ('127.0.0.1' , 'XX-内网IP' , '2018-05-09 16:36:48') [ RunTime:0.049809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_share` [ RunTime:0.050587s ]
+[ sql ] [ SQL ] SELECT * FROM `think_share` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.018271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.070685s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` ORDER BY `id`  desc LIMIT 8 [ RunTime:0.008315s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.399563s][吞吐率：2.50req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010368s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.182724s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.014496s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:38:17+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.210636s][吞吐率：4.75req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014389s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.030857s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001783s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:39:10+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.232874s][吞吐率：4.29req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009230s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.058227s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001695s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:40:01+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.266354s][吞吐率：3.75req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068715s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.039747s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001687s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:40:24+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.280481s][吞吐率：3.57req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044929s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.073364s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001894s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.377010s][吞吐率：2.65req/s] [内存消耗：2,168.90kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041365s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.081216s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001835s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.248590s][吞吐率：4.02req/s] [内存消耗：2,169.15kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025350s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.040739s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002084s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.378519s][吞吐率：2.64req/s] [内存消耗：2,169.20kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137994s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.060605s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.013141s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:43:42+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.284138s][吞吐率：3.52req/s] [内存消耗：2,168.95kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049352s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.044419s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001867s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:46:21+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.319790s][吞吐率：3.13req/s] [内存消耗：2,174.46kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028014s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.083258s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002007s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:47:10+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.277461s][吞吐率：3.60req/s] [内存消耗：2,174.46kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019662s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.054606s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001719s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:49:18+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.302125s][吞吐率：3.31req/s] [内存消耗：2,169.69kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072970s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.045154s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001732s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.549478s][吞吐率：1.82req/s] [内存消耗：2,171.15kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159470s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.188609s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001538s ]
+---------------------------------------------------------------
+[ 2018-05-09T16:58:17+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.174022s][吞吐率：5.75req/s] [内存消耗：1,155.02kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant msg - assumed 'msg'[G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php:119]
+---------------------------------------------------------------
+[ 2018-05-09T16:59:30+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.089794s][吞吐率：11.14req/s] [内存消耗：1,155.02kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant msg - assumed 'msg'[G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php:119]
+---------------------------------------------------------------
+[ 2018-05-09T17:00:29+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.224504s][吞吐率：4.45req/s] [内存消耗：2,171.15kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007362s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.034892s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002021s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:00:36+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.129946s][吞吐率：7.70req/s] [内存消耗：1,155.02kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant msg - assumed 'msg'[G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php:119]
+---------------------------------------------------------------
+[ 2018-05-09T17:01:44+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.198050s][吞吐率：5.05req/s] [内存消耗：1,964.99kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018542s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.031471s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001763s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:01:54+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.080736s][吞吐率：12.39req/s] [内存消耗：956.66kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:02:23+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.379774s][吞吐率：2.63req/s] [内存消耗：2,171.32kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090704s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.109247s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002014s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:02:35+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.071329s][吞吐率：14.02req/s] [内存消耗：956.66kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.279376s][吞吐率：3.58req/s] [内存消耗：2,171.32kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025640s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.078057s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001650s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:02:54+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.080292s][吞吐率：12.45req/s] [内存消耗：956.66kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.273011s][吞吐率：3.66req/s] [内存消耗：2,171.32kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071244s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.030365s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001576s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:03:44+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.073189s][吞吐率：13.66req/s] [内存消耗：956.66kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:04:58+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.238254s][吞吐率：4.20req/s] [内存消耗：2,171.16kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021564s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.032781s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002152s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:05:05+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.095771s][吞吐率：10.44req/s] [内存消耗：1,155.02kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant data - assumed 'data'[G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php:119]
+---------------------------------------------------------------
+[ 2018-05-09T17:05:31+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.379324s][吞吐率：2.64req/s] [内存消耗：1,965.00kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151684s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.031626s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.010939s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:05:37+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.070733s][吞吐率：14.14req/s] [内存消耗：956.93kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:06:57+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.240266s][吞吐率：4.16req/s] [内存消耗：2,170.91kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046393s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.032949s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001572s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:07:03+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.112314s][吞吐率：8.90req/s] [内存消耗：1,155.02kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant data - assumed 'data'[G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php:119]
+---------------------------------------------------------------
+[ 2018-05-09T17:07:31+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.230059s][吞吐率：4.35req/s] [内存消耗：1,964.44kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027563s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.043821s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002061s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:07:37+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.093345s][吞吐率：10.71req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:07:57+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.290896s][吞吐率：3.44req/s] [内存消耗：2,170.77kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038507s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.029358s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002007s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:08:03+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.107397s][吞吐率：9.31req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:09:06+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.324829s][吞吐率：3.08req/s] [内存消耗：2,171.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102315s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.032708s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002059s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:09:14+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.085135s][吞吐率：11.75req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈述啊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:09:22+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.085546s][吞吐率：11.69req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:12:38+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.239148s][吞吐率：4.18req/s] [内存消耗：2,171.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020087s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.030904s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001708s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:12:45+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.077298s][吞吐率：12.94req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:13:29+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.415869s][吞吐率：2.40req/s] [内存消耗：2,171.27kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.177328s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.028669s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002554s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:13:35+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.083533s][吞吐率：11.97req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:13:58+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.260015s][吞吐率：3.85req/s] [内存消耗：2,171.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040005s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.043628s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.011318s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:14:06+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.080894s][吞吐率：12.36req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:14:45+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.082463s][吞吐率：12.13req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T17:14:49+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.236120s][吞吐率：4.24req/s] [内存消耗：2,171.27kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009056s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.038281s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002062s ]
+---------------------------------------------------------------
+[ 2018-05-09T17:14:58+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.113186s][吞吐率：8.84req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.331550s][吞吐率：3.02req/s] [内存消耗：2,172.27kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148264s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.004756s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002142s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:12:12+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.196135s][吞吐率：5.10req/s] [内存消耗：1,964.94kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007650s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.007319s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001965s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.280427s][吞吐率：3.57req/s] [内存消耗：1,964.94kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009067s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.004162s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002006s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:12:18+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.174360s][吞吐率：5.74req/s] [内存消耗：1,964.99kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007225s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.003878s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002161s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:17:42+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.313622s][吞吐率：3.19req/s] [内存消耗：2,173.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126558s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.005186s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002064s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:17:49+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.078079s][吞吐率：12.81req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.267978s][吞吐率：3.73req/s] [内存消耗：2,173.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009256s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.075695s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001904s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:18:25+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.084809s][吞吐率：11.79req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:19:07+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.260467s][吞吐率：3.84req/s] [内存消耗：2,173.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020020s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.066690s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001590s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.074915s][吞吐率：13.35req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:19:38+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.211535s][吞吐率：4.73req/s] [内存消耗：2,173.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013327s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.034330s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001842s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.085216s][吞吐率：11.73req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:22:34+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.222731s][吞吐率：4.49req/s] [内存消耗：2,170.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009813s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.047848s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001679s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:22:40+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.072193s][吞吐率：13.85req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:23:51+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.303270s][吞吐率：3.30req/s] [内存消耗：2,170.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034133s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.045529s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002020s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:23:58+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.106480s][吞吐率：9.39req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:25:10+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.444451s][吞吐率：2.25req/s] [内存消耗：2,170.02kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214908s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.033370s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002114s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:25:16+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.075883s][吞吐率：13.18req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:25:33+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.202161s][吞吐率：4.95req/s] [内存消耗：1,963.69kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043140s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.005100s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001514s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:26:02+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.092726s][吞吐率：10.78req/s] [内存消耗：1,121.41kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈as',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:26:40+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.079445s][吞吐率：12.59req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.242052s][吞吐率：4.13req/s] [内存消耗：1,963.69kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045300s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.034022s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.002346s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:27:17+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.106860s][吞吐率：9.36req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:30:29+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.197130s][吞吐率：5.07req/s] [内存消耗：1,963.69kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014371s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.046029s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001937s ]
+---------------------------------------------------------------
+[ 2018-05-09T18:30:43+08:00 ] 127.0.0.1 127.0.0.1 POST /home/index/getImage.html
+[ info ] www.blog.com/home/index/getImage.html [运行时间：0.073206s][吞吐率：13.66req/s] [内存消耗：1,121.44kb] [文件加载：34]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'getImage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.com/about.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.blog.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '陈寿俊',
+)
+[ info ] [ RUN ] app\home\controller\Index->getImage[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T18:31:08+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ info ] www.blog.com/about.html [运行时间：0.235114s][吞吐率：4.25req/s] [内存消耗：1,963.69kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->about[ G:\phpstudy\PHPTutorial\WWW\Blog\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\Blog\public/../application/home\view\index\about.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034737s ] mysql:dbname=phpblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_locations` [ RunTime:0.034007s ]
+[ sql ] [ SQL ] SELECT * FROM `think_locations` ORDER BY `create_time`  desc LIMIT 1 [ RunTime:0.001930s ]

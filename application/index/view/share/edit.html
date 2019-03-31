@@ -1,0 +1,138 @@
+{extend name="common/base" /}
+{block name="title"}修改分享{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 修改分享</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">内容管理</li>
+    <li class="breadcrumb-item">修改分享</li>
+{/block}
+{block name="content"}
+  {if $status}
+    {if condition="$status=='修改成功'"}
+    <div class="alert alert-dismissible alert-info">
+    {else /}
+    <div class="alert alert-dismissible alert-warning">
+    {/if}
+            <button class="close" type="button" data-dismiss="alert">×</button>
+            <h4>{$status}</h4>
+        </div>
+  {/if}
+  <form action="{:url('index/share/edit')}" method="post" enctype="multipart/form-data" onsubmit="return validForm()">
+    <input type="hidden" value="{$share.id}" name="id" />
+    <div class="form-group">
+      <label class="control-label">标题:</label>
+      <input class="form-control" type="text" id="title" name="title" value="{$share.title}">
+    </div>
+    <div class="form-group">
+      <label class="control-label">所属标签:</label>
+      <select class="form-control" id="tag" name="tag">
+        <option value="" selected disabled>--请选择--</option>
+        {volist name="tags" id="tag"}
+          <option value="{$tag.id}" {if condition="$share.tag_id==$tag.id"}selected{/if}>{$tag.name}</option>
+        {/volist}}
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="control-label">封面:</label>
+      <div class="col-lg-3" style="margin-left: -14px">
+          <img class="form-control" id="imageShow" name="pic" width="150" height="140" {if $share.image }src="{$share.image}{/if}"/>
+      </div>
+      <input type="file" class="form-control-file" name="image" id="image" onchange="imgPreview(this)" />
+    </div>
+    <div class="form-group">
+      <label class="control-label">下载链接:</label>
+      <input class="form-control" type="text" id="url" name="url" value="{$share.url}">
+    </div>
+    <div class="form-group">
+      <label class="control-label">简介:</label>
+      <textarea class="form-control" id="desc" name="desc" rows="3" style="resize: none">{$share.desc}</textarea>
+      字数剩余:<span id="word">140</span><span>/140</span>
+    </div>
+      <button class="btn btn-primary" type="submit">修改</button>
+  </form>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#m-4").addClass('is-expanded');
+        $("#m-4-3").addClass('active');
+    })
+</script>
+<script type="text/javascript">
+    function imgPreview(fileDom){
+        //判断是否支持FileReader
+        if (window.FileReader) {
+            var reader = new FileReader();
+        } else {
+            alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+        }
+
+        //获取文件
+        var file = fileDom.files[0];
+        var ext=fileDom.value.substring(fileDom.value.lastIndexOf(".")+1).toLowerCase();
+        // gif在IE浏览器暂时无法显示
+        if(ext!='png'&&ext!='jpg'&&ext!='jpeg'){
+      if (ext != '') {
+        alert("图片的格式必须为png或者jpg或者jpeg格式！");
+      }
+      image_file = $("#image");
+      image_file.after(image_file.clone().val(""));
+      image_file.remove();
+      return;
+        }else{
+      if(((fileDom.files[0].size).toFixed(2))>=(2*1024*1024)){
+        alert("请上传小于2M的图片");
+        image_file = $("#image");
+        image_file.after(image_file.clone().val(""));
+        image_file.remove();
+          return;
+      }
+        }
+        //读取完成
+        reader.onload = function(e) {
+            //获取图片dom
+            var img = document.getElementById("imageShow");
+            //图片路径设置为读取的图片
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+</script>
+<script>
+  function validForm()
+  {
+    title = $.trim($("#title").val());
+    tag = $("#tag option:selected").val();
+    image = $.trim($("#imageShow").attr("src"));
+    url = $.trim($("#url").val());
+    desc = $.trim($("#desc").val());
+    if(title=="")
+    {
+      alert("标题不能为空");
+      return false;
+    }
+    if(tag=="")
+    {
+      alert("所属标签不能为空");
+      return false; 
+    }
+    if(image=="")
+    {
+      alert("封面图不能为空");
+      return false;
+    }
+    if(url=="")
+    {
+      alert("下载链接不能为空");
+      return false;
+    }
+    if(desc=="")
+    {
+      alert("简介不能为空");
+      return false;
+    }
+    
+  }
+</script>
+{/block}

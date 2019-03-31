@@ -1,0 +1,64 @@
+{extend name="common/base" /}
+{block name="title"}文章列表{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 文章列表</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">内容管理</li>
+    <li class="breadcrumb-item">文章列表</li>
+{/block}
+{block name="content"}
+   <div class="tile">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>标题</th>
+          	  <th>点击数</th>
+          	  <th>作者</th>
+              <th>所属标签</th>
+              <th>添加时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="articles" id="article"}
+	            <tr>
+	              <td>{$article.id}</td>
+	              <td>{$article.title}</td>
+	              <td>{$article.click_nums}</td>
+	              <td>{$article.author}</td>
+	          	  <td>{$article.tag.name}</td>
+	              <td>{$article.create_time}</td>
+	              <td><a href="{:url('index/article/edit')}?id={$article.id}">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="{$article.id}" onclick="toDelete({$article.id})" style="color: red;cursor:pointer">删除</a></td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+	   {include file='common/page'}
+   </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-4").addClass('is-expanded');
+        $("#m-4-1").addClass('active');
+    })
+</script>
+<script>
+	function toDelete(id){
+		$.ajax({
+			cache:false,
+			type:"POST",
+			url:"{:url('index/article/delete')}",
+			dataType:"json",
+			data:{"id":id},
+			async:true,
+			success:function(data){
+				alert(data.msg);
+				$('#'+id).parents('tr').remove();
+			}
+		});
+	}
+</script>
+{/block}

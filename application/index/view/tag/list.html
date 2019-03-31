@@ -1,0 +1,60 @@
+{extend name="common/base" /}
+{block name="title"}标签列表{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 标签列表</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">标签管理</li>
+    <li class="breadcrumb-item">标签列表</li>
+{/block}
+{block name="content"}
+   <div class="tile">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>标签昵称</th>
+              <th>所属模板</th>
+              <th>添加时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{volist name="tags" id="tag"}
+	            <tr>
+	              <td>{$tag.id}</td>
+	              <td>{$tag.name}</td>
+	              <td>{$tag.category.name}</td>
+	              <td>{$tag.create_time}</td>
+	              <td><a href="{:url('index/tag/edit')}?id={$tag.id}">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="{$tag.id}" onclick="toDelete({$tag.id})" style="color: red;cursor:pointer">删除</a></td>
+	            </tr>
+            {/volist}
+          </tbody>
+        </table>
+	   {include file='common/page'}
+   </div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+        $("#m-3").addClass('is-expanded');
+        $("#m-3-1").addClass('active');
+    })
+</script>
+<script>
+	function toDelete(id){
+		$.ajax({
+			cache:false,
+			type:"POST",
+			url:"{:url('index/tag/delete')}",
+			dataType:"json",
+			data:{"id":id},
+			async:true,
+			success:function(data){
+				alert(data.msg);
+				$('#'+id).parents('tr').remove();
+			}
+		});
+	}
+</script>
+{/block}
